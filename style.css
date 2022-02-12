@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #7F7EFF;
+}
+
+
+
+.container{
+    width: 40%;
+    height: 60vh;
+    background-color: #022B3A;
+    padding: 15px;
+    display: block;
+    border: 2px solid white;
+    margin: 10vh auto;
+    align-self: center;
+    border-radius: 10px;
+    box-shadow: 5x 10px 20px black;
+    font-family: serif;
+}
+
+h1{
+    font-family: cursive;
+    font-weight: 800;
+    font-size: 3rem;
+    color: black;
+    text-align: center;
+}
+
+.screen{
+    height: 10vh;
+    background-color: #2A2E45;
+    border : solid 2px black;
+    border-radius: 5px;
+    font-size: medium;
+    color: white;
+    width: 100%;
+    cursor: default;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.number:hover,.equal:hover , .operator:hover, .clear:hover{
+    transition: .2s ease-in;
+    background-color: #7FD8BE;
+    color: white;
+    transform: scale(1.04);
+}
+
+.operator:hover{
+    background-color: #7FD8BE;
+}
+
+input[type='text']{
+    width: 96%;
+}
+
+input[type='button']:active{
+    background-color: #E9806E;
+}
+
+.operator,  .clear, .equal{
+    background-color: #7EDBF7;
+    padding: 5px;
+    color:black;
+    border: 2px solid black;
+    width: 100%;
+    height: 10vh;
+    cursor: pointer;
+    font-size: 2.5rem;
+    
+}
+
+.number{
+    background-color:#F9E9EC ;
+    border-radius: 5px;
+    padding: 5px;
+    height: 10vh;
+    color : black;
+    border: 2px solid black;
+    width: 100%;
+    cursor: pointer;
+    font-size: 2.5rem;
+}
+
+
+
+.clear{
+    background-color: #F6C28B;
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 10px;
+    height: 13vh;
+    margin-left: 2px;
+}
+
+.clear:hover{
+    background-color: #AB2346;
+}
+
+.equal{
+    background-color: #12cf0b96;
+}
+
+.equal:hover{
+    background-color: #01BAEF;
+}
+table{
+    width: 100%;
+    height: 100%;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    text-align: center;
+    font-size: 2rem;
+    text-decoration: none;
+    height: 5vh;
+    font-family: cursive;
+}
+
+footer a{
+    text-decoration: none;
+    color: #1F2041;
+}
+
+footer a:hover{
+    transform: scale(1.03);
+    color: #381D2A;
+    
+    transition: .2s ease-in-out;
+    font-weight: 700;
+}
+
+img{
+    margin: 0 2vw;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}
+
+footer a img:hover{
+    transform: scale(1.02);
+}
